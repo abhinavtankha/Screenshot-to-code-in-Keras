@@ -1,0 +1,35 @@
+{ 
+body
+{ 
+header {} 
+top-body 
+{ 
+content 
+{ 
+page-heading {}
+body-content {
+para{}
+contents-section {
+list{
+content-list-element, content-list-element, content-list-element, content-list-element, content-list-element, content-list-element
+}	
+}
+body-heading{}
+para{}
+image{}
+body-heading{}
+para{}
+body-heading{}
+para{}
+body-heading{}
+para{}
+body-heading{}
+citation-section{}
+body-heading{}
+para{}
+navigation-in-body-can-skip{}
+}
+} 
+navigation , footer 
+} 
+}
