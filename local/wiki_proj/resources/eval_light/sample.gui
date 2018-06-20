@@ -30,6 +30,14 @@ para{}
 navigation-in-body-can-skip{}
 }
 } 
-navigation , footer 
+main-navigation {
+navigation-top-wrapper{
+navigation-personal-top-right, 
+navigation-toppanel-left,
+navigation-toppanel-right
+}
+navigation-side-bar{}
+}
+footer 
 } 
 }
