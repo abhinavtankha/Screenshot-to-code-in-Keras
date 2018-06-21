@@ -1,0 +1,35 @@
+{ 
+body
+{ 
+header {} 
+top-body 
+{ 
+content 
+{ 
+page-heading {}
+body-content {
+para{}
+contents-section {
+list{
+content-list-element, content-list-element
+}	
+}
+body-heading{}
+para{}
+body-heading{}
+para{}
+image{}
+navigation-in-body-can-skip{}
+}
+} 
+main-navigation {
+navigation-top-wrapper{
+navigation-personal-top-right, 
+navigation-toppanel-left,
+navigation-toppanel-right
+}
+navigation-side-bar{}
+}
+footer 
+} 
+}
