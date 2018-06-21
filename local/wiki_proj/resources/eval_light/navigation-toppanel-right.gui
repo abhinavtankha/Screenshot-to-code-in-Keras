@@ -1,12 +1,12 @@
 { 
 body
 { 
-header {} 
+header { } 
 top-body 
 { 
 main-navigation {
 navigation-top-wrapper {
-navigation-toppanel-right{}
+navigation-toppanel-right { }
 }
 }
 } 

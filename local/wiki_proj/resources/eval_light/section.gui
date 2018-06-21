@@ -1,9 +1,9 @@
 { 
 body
 { 
-header {} 
+header { } 
 contents-section {
-list{
+list {
 content-list-element, content-list-element, content-list-element, content-list-element, content-list-element, content-list-element
 }	
 }

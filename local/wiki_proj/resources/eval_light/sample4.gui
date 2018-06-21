@@ -1,28 +1,26 @@
 { 
 body
 { 
-header {} 
+header { } 
 top-body 
 { 
 content 
 { 
-page-heading {}
+page-heading { }
 body-content {
-para{}
+para { }
 contents-section {
-list{
+list {
 content-list-element, content-list-element, content-list-element
 }	
 }
 }
 } 
 main-navigation {
-navigation-top-wrapper{
-navigation-personal-top-right, 
-navigation-toppanel-left,
-navigation-toppanel-right
+navig ation-top-wrapper {
+navigation-personal-top-right, navigation-toppanel-left, navigation-toppanel-right
 }
-navigation-side-bar{}
+navigation-side-bar { }
 }
 footer 
 } 
