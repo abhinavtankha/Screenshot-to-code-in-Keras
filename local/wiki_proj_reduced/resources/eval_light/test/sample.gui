@@ -1,19 +1,9 @@
-{ 
-body
-{ 
-header   
 top-body 
 { 
 content 
 { 
-page-heading  
-body-content {
 para  
-contents-section {
-list {
-content-list-element, content-list-element, content-list-element, content-list-element, content-list-element, content-list-element
-}	
-}
+contents-section 
 body-heading  
 para  
 image  
@@ -27,16 +17,11 @@ body-heading
 citation-section  
 body-heading  
 para  
-navigation-in-body-can-skip  
-}
+navigation-in-body-can-skip
 } 
 main-navigation {
-navigation-top-wrapper {
-navigation-personal-top-right, navigation-toppanel-left, navigation-toppanel-right
-}
+navigation-top-wrapper
 navigation-side-bar  
 }
 footer 
 } 
-}
-}
