@@ -1,14 +1,14 @@
 { 
 body
 { 
-header { } 
+header   
 top-body 
 { 
 content 
 { 
-page-heading { }
+page-heading  
 body-content {
-para { }
+para  
 contents-section {
 list {
 content-list-element, content-list-element, content-list-element
@@ -20,8 +20,9 @@ main-navigation {
 navig ation-top-wrapper {
 navigation-personal-top-right, navigation-toppanel-left, navigation-toppanel-right
 }
-navigation-side-bar { }
+navigation-side-bar  
 }
 footer 
+}
 } 
 }

@@ -1,7 +1,7 @@
 { 
 body
 { 
-header { } 
+header   
 contents-section {
 list {
 content-list-element, content-list-element, content-list-element, content-list-element, content-list-element, content-list-element

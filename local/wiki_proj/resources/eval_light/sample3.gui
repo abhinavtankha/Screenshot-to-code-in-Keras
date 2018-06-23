@@ -1,32 +1,32 @@
 { 
 body
 { 
-header { } 
+header   
 top-body 
 { 
 content 
 { 
-page-heading { }
+page-heading  
 body-content {
-para { }
+para  
 contents-section {
 list {
 content-list-element, content-list-element
 }	
 }
-body-heading { }
-para { }
-body-heading { }
-para { }
-image { }
-navigation-in-body-can-skip { }
+body-heading  
+para  
+body-heading  
+para  
+image  
+navigation-in-body-can-skip  
 }
 } 
 main-navigation {
 navigation-top-wrapper {
 navigation-personal-top-right, navigation-toppanel-left, navigation-toppanel-right
 }
-navigation-side-bar { }
+navigation-side-bar  
 }
 footer 
 } 
