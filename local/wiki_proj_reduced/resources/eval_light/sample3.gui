@@ -1,0 +1,19 @@
+top-body 
+{ 
+content 
+{
+para  
+contents-section 
+body-heading  
+para  
+body-heading  
+para  
+image  
+navigation-in-body-can-skip
+} 
+main-navigation {
+navigation-top-wrapper
+navigation-side-bar  
+}
+footer 
+}
