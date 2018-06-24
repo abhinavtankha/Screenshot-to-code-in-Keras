@@ -33,7 +33,6 @@ def sanitize_data(record, singular_token_path):
             else:
                 sanitized_string = sanitized_string + ' ' + token
         sanitized_string = '{ body { header {} ' + sanitized_string + '}}'     
-        print(sanitized_string)   
         return sanitized_string
 
 def read_file(file_path):
