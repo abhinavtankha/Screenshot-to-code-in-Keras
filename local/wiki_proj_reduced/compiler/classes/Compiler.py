@@ -16,6 +16,31 @@ def render_content_with_text(key, value):
                                   Utils.get_random_text(length_text=56, space_number=7, with_upper_case=False))
     return value
 
+def sanitize_data(record, singular_token_path):       
+        singular_token_data = read_file(singular_token_path)
+        record = record.replace('\n',' ')
+        record = ' '.join(record.split(' '))
+        singular_token_data = ' '.join(singular_token_data.split(' '))
+        tokens = record.split(' ')
+        singular_tokens = singular_token_data.split(' ')
+        sanitized_string = ''
+        for token in tokens:
+            #print("token> " + token)
+            token = token.replace(' ', '').replace('\n','')
+            if any(singular_token in token for singular_token in singular_tokens):
+                #print('inside')
+                sanitized_string = sanitized_string + ' ' + token + ' {}'
+            else:
+                sanitized_string = sanitized_string + ' ' + token
+        sanitized_string = '{ body { header {} ' + sanitized_string + '}}'     
+        print(sanitized_string)   
+        return sanitized_string
+
+def read_file(file_path):
+    file2 = open(file_path, 'r')
+    content = file2.read();
+    file2.close()
+    return content
 
 class Compiler:
     def __init__(self, dsl_mapping_file_path):
@@ -28,8 +53,9 @@ class Compiler:
 
         self.root = Node("body", None, self.content_holder)
 
-    def compile(self, tokens, output_file_path):
-        dsl_file = tokens
+    def compile(self, tokens, output_file_path, dsl_singular_tag_file_path):
+        dsl_file = sanitize_data(tokens, dsl_singular_tag_file_path)
+        tokens
         
         #Parse fix
         dsl_file = dsl_file[1:-1]
